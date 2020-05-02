@@ -1,0 +1,5 @@
+Primarily used on my Ryzen 5 2500u based laptop, where amdgpu fails to resume from suspend if a compositor is running.
+Thus this kills picom [compton] before going to suspend.
+
+system-sleep folder is located at :
+/usr/lib/systemd/system-sleep/
