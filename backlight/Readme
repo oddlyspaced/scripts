@@ -1,0 +1,15 @@
+In order to use this brightness control executable, compile it using gcc and move it to your bin folder.
+
+Example:
+
+gcc -o brc brc.c
+chmod +x brc
+sudo mv brc /usr/bin/
+sudo chown root brc
+sudo chmod u+s brc
+
+You can run brc --help for more info.
+
+Then you can use that in your wm config for controlling brightness.
+
+Credits to Eric Waller (ewwaller+code@gmail.com)

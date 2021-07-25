@@ -1,2 +1,0 @@
-sudo chown root a.out
-sudo chmod u+s a.out
